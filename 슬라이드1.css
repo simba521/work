@@ -1,0 +1,132 @@
+#p3{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40%;
+    
+}
+#ipt{
+    font-size: 400%;
+    border-bottom:1px solid black ;
+    width: 30%;
+    line-height: 90%;
+    padding-bottom: 3%;
+    
+}
+#ipte{
+    float: right;
+    margin-top: -10%;
+    
+}
+#container1{
+    overflow: auto;
+    width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+
+}
+#iptimg{
+    display: flex;
+   
+}
+#text3{
+    margin-left: 20%;
+    
+}
+#text2{
+    
+    color: white;
+}
+#date1{
+    font-size: 500%;
+    transform:rotate(90deg);
+    margin-left: 100%;
+    margin-top: -47%;
+    color: rgb(164, 164, 164);
+}
+
+#but1{
+    float: right;
+    margin-right: 28%;
+    margin-top: 20%;
+    
+}
+#but2{
+    float: left;
+    margin-top: 20%;
+   
+} 
+
+.iptimg1{
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+    display: none;
+}
+.iptimg2{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg3{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg4{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg5{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg6{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg7{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg8{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+
+.iptimg9{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg10{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg11{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}
+.iptimg12{
+    display: none;
+    text-align: center;
+    margin-top: -35% ;
+    margin-left: 20%;
+}

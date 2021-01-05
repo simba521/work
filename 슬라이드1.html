@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="슬라이드1.css">
+</head>
+
+<body>
+    <div id="p3">
+        <div id="ipt">
+            Introduceing <br>
+            presentation</div>
+        <div id="ipte">
+            2020년 3프로잭트때 진행한 개인주제프로잭트의 완성물이다<br>
+
+            학교에서 많이 하게되는 프레젠테이션을 <br>
+            전문적으로 배워보고 싶어서 시작하게됬고<br>
+            마지막에는 학교에서 가장큰 발표에서 이 프리젠테이션을 선보였다</div>
+        <div id=text2>
+            In keynote</div>
+        <div id=butbox>
+            <p id=but1><img src="오른쪾.png" width="40vw"></p>
+            <p id=but2><img src="왼쪽.png" width="40vw"></p>
+        </div>
+
+        <div id=container1>
+            <div id=iptimg>
+                <div id=iptimg1><img src="photo/1모듈.png" width="600px"></div>
+                <div id=iptimg2><img src="photo/1-2모듈.png" width="600px"></div>
+                <div id=iptimg3><img src="photo/1-3모듈.png" width="600px"></div>
+            </div>
+
+        </div>
+        <div id=text3>내 과거를 되돌아 보고 미래를 예측해보는 프레젠테이션</div>
+
+
+
+
+
+        <div id=date1>2020/3module</div>
+    </div>
+    </div>
+    <script>
+        let a = 0
+        document.querySelector("#but1").addEventListener("click", function () {
+            if (a < 1800) {
+                a = a + 600
+                document.querySelector("#iptimg").style.transform = "translate(" + a + "px)";
+                document.querySelector("#iptimg").style.transition = '0.7s';
+            }
+
+        })
+
+        document.querySelector("#but2").addEventListener("click", function () {
+            if (a < 0) {
+                a = a + 600
+                document.querySelector("#iptimg").style.transform = "translate(" + a + "px)";
+                document.querySelector("#iptimg").style.transition = '0.7s';
+            }
+        })
+    </script>
+    </div>
+    </div>
+</body>
+
+</html>

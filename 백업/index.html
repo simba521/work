@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="제목">
+        <a href="index.html">배움여정</a>
+    </div>
+    <div class="모듈선택1">
+        <a href="1.html">1모듈</a>
+    </div>
+    <div class="모듈선택2">
+        <a href="2.html">2모듈</a>
+    </div>
+    <div class="모듈선택3">
+        <a href="3.html">3모듈</a>
+    </div>
+
+    <div class="inner-container3">
+        <div style="overflow: hidden">
+            <div class="container3">
+                <div class="inner">
+                <img src="photo/1모듈.png">
+                </div>
+                <div class="inner">
+                <img src="">
+                </div>
+                <div class="inner3">
+                <img src="photo/3모듈.png">
+                </div>
+            </div>
+        </div>
+    
+    <button class="버튼1"></button>
+    <button class="버튼2"></button>
+    <button class="버튼3"></button>
+    <script>
+        document.querySelector('.버튼1').addEventListener('click',function(){
+            document.querySelector('.container').style.transform = 'translate(0vw)';
+        })
+        document.querySelector('.버튼2').addEventListener('click',function(){
+            document.querySelector('.container').style.transform = 'translate(-100vw)';
+        })
+        document.querySelector('.버튼3').addEventListener('click',function(){
+            document.querySelector('.container').style.transform = 'translate(-200vw)';
+        })
+     </script>
+     </div>
+</body>
+</html>
